@@ -1,31 +1,61 @@
 :root {
-  --dark-bg: ##00003D;
-  --light-bg: ##00003D;
-  --primary-color: #48212C;
-  --secondary-color: #513331;
-  --third-color: #5808BC;
-  --fourth-color: #2C37FE;
-  --text-color: #FFF;
-  --text-secondary: #FFF;
-  --text-color-dark: #FFF;
-  --text-color-light: #FFF;
-  --title-color: #FFF;
-  --border-color: #191950;
-  --border-color-dark: #191950;
-  --border-color-light: #191950;
-  --shadow: 10px 12px 48px rgba(181, 187, 203, 0.206);
+	--background: #020F0F;
+	--primary-color: #00003D;
+	--secondary-color: #23001E;
+	--third-color: #00FA9A;
+	--fourth-color: #FF5733;
+	--text-color: #FFF;
+	--title-color: #A6EDF3;
+	--border-color: #191950;
 }
 
 html {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-  color: var(--text-color);
-  margin: 0 !important;
-  max-width: 100%;
-  overflow-x: hidden;
-  padding: 0 !important;
-  touch-action: pan-y, pan-x;
-  transition: all 0.4s cubic-bezier(0.57, 0.25, 0.33, 1) 0s;
+	background-color: var(--background);
+	color: var(--text-color);
+	margin: 0 !important;
+	max-width: 100%;
+	overflow-x: hidden;
+	padding: 0 !important;
+	touch-action: pan-y, pan-x;
+	transition: all 0.4s cubic-bezier(0.57, 0.25, 0.33, 1) 0s;
+}
+
+.container {
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+@media (min-width: 2100px) {
+	.container {
+		max-width: 1600px;
+	}
+}
+
+@media (min-width: 576px) {
+	.container {
+		max-width: 540px;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+		max-width: 720px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		max-width: 960px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1200px;
+	}
 }
