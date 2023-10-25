@@ -14,7 +14,6 @@
 	align-items: center;
 	justify-content: space-around;
 	position: relative;
-
 }
 
 /* Left Side */
@@ -96,7 +95,7 @@
 		flex-direction: column;
 		align-items: center;
 		gap: 4rem;
-		padding-top: 3rem;
+		padding-bottom: 3rem;
 	}
 	.l-right {
 		flex: 1;

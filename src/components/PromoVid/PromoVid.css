@@ -1,0 +1,25 @@
+.pv-container .container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: visible;
+}
+
+.pv-video {
+	width: 95%;
+	border-radius: 4rem;
+	margin-top: -10rem;
+	z-index: 1;
+}
+
+@media (max-width: 1024px) {
+	.pv-video {
+		margin-top: 1rem;
+	}
+}
+
+@media (max-width: 768px) {
+	.pv-video {
+		border-radius: 2rem;
+	}
+}

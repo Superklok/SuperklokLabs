@@ -1,32 +1,32 @@
 export const LandingData = [
 	{
 		src: "Landing/Track1.jpg",
-		bg: "#000",
+		bg: "#020F0F",
 		delay: 0.1,
 	},
 	{
 		src: "Landing/Track2.jpg",
-		bg: "#000",
+		bg: "#020F0F",
 		delay: 0.3,
 	},
 	{
 		src: "Landing/Track3.jpg",
-		bg: "#000",
+		bg: "#020F0F",
 		delay: 0.2,
 	},
 	{
 		src: "Landing/Track4.jpg",
-		bg: "#000",
+		bg: "#020F0F",
 		delay: 0.2,
 	},
 	{
 		src: "Landing/Track5.jpg",
-		bg: "#000",
+		bg: "#020F0F",
 		delay: 0.3,
 	},
 	{
 		src: "Landing/Track6.jpg",
-		bg: "#000",
+		bg: "#020F0F",
 		delay: 0.25,
 	},
 ];
