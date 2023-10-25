@@ -1,32 +1,32 @@
-export const HomeTracks = [
+export const LandingData = [
 	{
-		src: "Home/Track1.jpg",
-		bg: "#00003D",
+		src: "Landing/Track1.jpg",
+		bg: "#000",
 		delay: 0.1,
 	},
 	{
-		src: "Home/Track2.jpg",
-		bg: "#00003D",
+		src: "Landing/Track2.jpg",
+		bg: "#000",
 		delay: 0.3,
 	},
 	{
-		src: "Home/Track3.jpg",
-		bg: "#00003D",
+		src: "Landing/Track3.jpg",
+		bg: "#000",
 		delay: 0.2,
 	},
 	{
-		src: "Home/Track4.jpg",
-		bg: "#00003D",
+		src: "Landing/Track4.jpg",
+		bg: "#000",
 		delay: 0.2,
 	},
 	{
-		src: "Home/Track5.jpg",
-		bg: "#00003D",
+		src: "Landing/Track5.jpg",
+		bg: "#000",
 		delay: 0.3,
 	},
 	{
-		src: "Home/Track6.jpg",
-		bg: "#00003D",
+		src: "Landing/Track6.jpg",
+		bg: "#000",
 		delay: 0.25,
 	},
 ];
