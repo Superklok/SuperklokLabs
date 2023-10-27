@@ -1,6 +1,7 @@
 import { Navbar } from '@/src/components/Navbar/Navbar';
 import Landing from '@/src/components/Landing/Landing';
 import PromoVid from '@/src/components/PromoVid/PromoVid';
+import OurServices from '@/src/components/OurServices/OurServices';
 import './page.css';
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
 			<Navbar/>
 			<Landing/>
 			<PromoVid/>
+			<OurServices/>
 		</div>
 	);
 }

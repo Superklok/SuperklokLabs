@@ -1,32 +1,32 @@
 export const LandingData = [
 	{
 		src: "Landing/Track1.jpg",
-		bg: "#020F0F",
+		bg: "#1A1A6B",
 		delay: 0.1,
 	},
 	{
 		src: "Landing/Track2.jpg",
-		bg: "#020F0F",
+		bg: "#228B22",
 		delay: 0.3,
 	},
 	{
 		src: "Landing/Track3.jpg",
-		bg: "#020F0F",
+		bg: "#800080",
 		delay: 0.2,
 	},
 	{
 		src: "Landing/Track4.jpg",
-		bg: "#020F0F",
+		bg: "#FF859A",
 		delay: 0.2,
 	},
 	{
 		src: "Landing/Track5.jpg",
-		bg: "#020F0F",
+		bg: "#000078",
 		delay: 0.3,
 	},
 	{
 		src: "Landing/Track6.jpg",
-		bg: "#020F0F",
+		bg: "#000",
 		delay: 0.25,
 	},
 ];
@@ -46,11 +46,11 @@ export const Services = [
 	},
 	{
 		icon: "/Services/Frame-3.png",
-		title: "FL Studio",
+		title: "After Effects",
 	},
 	{
 		icon: "/Services/Frame-4.png",
-		title: "Adobe After Effects",
+		title: "FL Studio",
 	},
 	{
 		icon: "/Services/Frame-5.png",

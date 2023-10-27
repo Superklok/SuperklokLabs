@@ -8,7 +8,7 @@
 .n-container {
 	padding: 1.5rem 1rem;
 	color: #FFF;
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -18,7 +18,7 @@
 .n-logo {
 	font-weight: 400;
 	cursor: pointer;
-	font-size: 2rem;
+	font-size: 2.6rem;
 }
 
 .n-right {
@@ -27,7 +27,7 @@
 	align-items: center;
 	justify-content: center;
 	gap: 2.5rem;
-	font-size: 1.8rem;
+	font-size: 2.2rem;
 }
 
 .n-menu {
@@ -61,7 +61,7 @@
 	}
 	.nm-container>:nth-child(1) {
 		font-weight: 400;
-		font-size: 2.2rem;
+		font-size: 2.6rem;
 	}
 	.nm-menu {
 		position: fixed;
@@ -75,7 +75,8 @@
 		transform: translateX(-150%);
 		transition: all 300ms ease-in-out;
 		width: 100%;
-		font-size: 1.8rem;
+		font-size: 2.2rem;
+		text-transform: uppercase;
 		z-index: 99;
 		height: calc(100vh - 3.9rem)
 	}
