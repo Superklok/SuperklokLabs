@@ -1,0 +1,77 @@
+.a-wrapper .container {
+	padding-top: 13rem;
+}
+
+.a-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.a-container > div {
+	flex: 1;
+}
+
+.a-left {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.a-left .head {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	align-items: flex-start;
+}
+
+.a-left .head .title {
+	text-align: left;
+}
+
+.a-features {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.a-feature {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	max-width: 28rem;
+}
+
+.a-feature .desc {
+	color: var(--third-color);
+}
+
+.a-feature .text {
+	text-align: justify;
+}
+
+.a-right {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-self: flex-end;
+}
+
+.a-right video {
+	width: 100%;
+	border-radius: 2rem;
+}
+
+@media (max-width: 990px) {
+	.a-container {
+		flex-direction: column;
+		padding: 2rem;
+	}
+	.a-right {
+		align-self: center;
+		margin-top: 2rem;
+	}
+	.a-right video {
+		max-width: 20rem;
+	}
+}

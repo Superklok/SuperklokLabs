@@ -23,7 +23,7 @@ const PromoVid = () => {
 				autoPlay 
 				controls=''
 				style={{scale}}>
-					<source src="/video.mp4" type='video/mp4'/>
+					<source src="/promo.mp4" type='video/mp4'/>
 				</motion.video>
 			</din>
 		</div>

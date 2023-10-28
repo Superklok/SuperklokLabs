@@ -97,7 +97,7 @@ export const DevOpsFeatures = [
 	},
 ];
 
-export const About = [
+export const AboutUs = [
 	{
 		title: 'The Company',
 		desc: 'Superklok Labs is an IT consulting firm that specializes in JavaScript, React.js, Next.js, AWS DevOps Engineering, PC building, French/English translation, music production, and graphic design.',
