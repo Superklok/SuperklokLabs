@@ -5,6 +5,7 @@ import Landing from '@/src/components/Landing/Landing';
 import PromoVid from '@/src/components/PromoVid/PromoVid';
 import OurServices from '@/src/components/OurServices/OurServices';
 import Connect from '@/src/components/Connect/Connect';
+import DevOps from '@/src/components/DevOps/DevOps';
 import {motion, useAnimation} from 'framer-motion';
 import './page.css';
 
@@ -28,6 +29,7 @@ export default function Home() {
 			>
 				<Connect/>
 			</motion.div>
+			<DevOps/>
 		</motion.div>
 	);
 }

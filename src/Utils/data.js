@@ -79,7 +79,7 @@ export const ConnectFeatures = [
 	},
 ];
 
-export const DevOps = [
+export const DevOpsFeatures = [
 	{
 		icon: '/DevOps/Frame-0.png',
 		title: 'Docker',

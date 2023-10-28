@@ -37,7 +37,7 @@
 	justify-content: center;
 	padding: 2rem;
 	text-align: center;
-	box-shadow: var(--blue-shadow);
+	box-shadow: var(--blue-glow);
 	border-radius: 2rem;
 	background-color: #020F0F;
 }
@@ -60,7 +60,7 @@
 	justify-content: center;
 	text-align: center;
 	gap: 1rem;
-	box-shadow: var(--blue-shadow);
+	box-shadow: var(--blue-glow);
 	border-radius: 1rem;
 	padding: 1rem;
 	color: var(--text-color);
@@ -81,7 +81,7 @@
 .s-customPC {
 	display: flex;
 	padding: 2rem;
-	box-shadow: var(--blue-shadow);
+	box-shadow: var(--blue-glow);
 	border-radius: 1rem;
 	justify-content: space-between;
 	align-items: center;

@@ -26,7 +26,7 @@ const OurServices = () => {
 						variants={titleVariants}
 						className='title'>
 							{''}
-							Applying innovative conceptualization to music production, web design & custom luxury PC builds.
+							Applying innovative conceptualization to music production, web design & custom luxury PC builds
 						</motion.span>
 						<motion.span 
 						initial='offscreen'
