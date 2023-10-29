@@ -50,7 +50,7 @@
 	overflow: hidden;
 }
 
-.track-pill-bg > img {
+.track-pill-bg > a > img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;

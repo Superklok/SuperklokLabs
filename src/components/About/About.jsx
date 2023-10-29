@@ -56,7 +56,7 @@ const About = () => {
 						muted 
 						autoPlay 
 						controls=''>
-							<source src="/contact.mp4" type='video/mp4'/>
+							<source src='/contact.mp4' type='video/mp4'/>
 						</motion.video>
 					</div>
 				</div>

@@ -59,12 +59,14 @@ const OurServices = () => {
 										variants={containerVariants((i+1)*0.1)}
 										className='s-service' 
 										key={i}>
-											<Image 
-											className='s-icon'
-											src={Service.icon} 
-											alt='service' 
-											width={60} 
-											height={60}/>
+											<a href={Service.link}>
+												<Image 
+												className='s-icon'
+												src={Service.icon} 
+												alt='service' 
+												width={60} 
+												height={60}/>
+											</a>					
 											<span>{Service.title}</span>
 										</motion.div>
 									))
@@ -93,12 +95,14 @@ const OurServices = () => {
 										variants={containerVariants((i+1)*0.1)}
 										className='s-service'
 										key={i}>
-											<Image 
-											className='s-icon'
-											src={Service.icon} 
-											alt='service' 
-											width={60} 
-											height={60}/>
+											<a href={Service.link}>
+												<Image 
+												className='s-icon'
+												src={Service.icon} 
+												alt='service' 
+												width={60} 
+												height={60}/>
+											</a>				
 											<span>{Service.title}</span>
 										</motion.div>
 									))

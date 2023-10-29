@@ -67,12 +67,14 @@ const DevOps = () => {
 
 									{/* Right Side */}
 									<div className='icon'>
-										<Image 
-										src={feature.icon} 
-										width={128} 
-										height={128}
-										alt='feature'
-										style={{translate: '50% orem'}}/>
+										<a href={feature.link}>
+											<Image 
+											src={feature.icon} 
+											width={128} 
+											height={128}
+											alt='feature'
+											style={{translate: '50% orem'}}/>
+										</a>
 									</div>
 								</motion.div>
 							))

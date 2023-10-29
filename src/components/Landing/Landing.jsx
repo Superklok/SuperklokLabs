@@ -51,12 +51,14 @@ const Landing = () => {
 										variants={variants(track.delay)}
 										style={{backgroundColor: track.bg}}
 										className='track-pill-bg'>
-											<motion.img 
-											initial={'initial'}
-											animate={'animate'}
-											variants={imgVariants()}
-											src={track.src} 
-											alt={track.src} />
+											<a href={track.link}>
+												<motion.img 
+												initial={'initial'}
+												animate={'animate'}
+												variants={imgVariants()}
+												src={track.src} 
+												alt={track.src} />
+											</a>
 										</motion.div>
 									</div>
 								))
@@ -72,12 +74,14 @@ const Landing = () => {
 										variants={variants(track.delay)}
 										style={{backgroundColor: track.bg}}
 										className='track-pill-bg'>
-											<motion.img 
-											initial={'initial'}
-											animate={'animate'}
-											variants={imgVariants()}
-											src={track.src} 
-											alt={track.src} />
+											<a href={track.link}>
+												<motion.img 
+												initial={'initial'}
+												animate={'animate'}
+												variants={imgVariants()}
+												src={track.src} 
+												alt={track.src} />
+											</a>
 										</motion.div>
 									</div>
 								))
