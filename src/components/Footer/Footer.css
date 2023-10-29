@@ -1,0 +1,16 @@
+.f-wrapper {
+	background-color: var(--primary-color);
+}
+
+.f-wrapper .container {
+	margin-top: 5rem;
+	padding-top: 5rem;
+	padding-bottom: 2rem;
+}
+
+.f-container {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	align-items: center;
+}

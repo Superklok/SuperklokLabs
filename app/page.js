@@ -8,6 +8,7 @@ import Connect from '@/src/components/Connect/Connect';
 import DevOps from '@/src/components/DevOps/DevOps';
 import About from '@/src/components/About/About';
 import OurContainers from '@/src/components/OurContainers/OurContainers';
+import Footer from '@/src/components/Footer/Footer';
 import {motion, useAnimation} from 'framer-motion';
 import './page.css';
 
@@ -44,6 +45,7 @@ export default function Home() {
 				<About/>
 			</motion.div>
 			<OurContainers/>
+			<Footer/>
 		</motion.div>
 	);
 }
