@@ -5,6 +5,16 @@
 	z-index: 999;
 }
 
+.sticky {
+	position: fixed;
+	background: var(--background);
+	top: 0;
+}
+
+.sticky .n-container {
+	padding: 1rem;
+}
+
 .n-container {
 	padding: 1.5rem 1rem;
 	color: #FFF;
@@ -80,7 +90,7 @@
 		z-index: 99;
 		height: calc(100vh - 3.9rem)
 	}
-	.nm-menu span {
+	.nm-menu a {
 		margin-bottom: 2rem;
 		padding-bottom: 1rem;
 		border-bottom: 1px solid var(--border-color);

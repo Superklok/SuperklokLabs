@@ -1,15 +1,26 @@
 'use client'
 
 import React, {useState} from 'react';
-import './Navbar.css';
 import {BiMenuAltRight} from 'react-icons/bi';
 import {RxCross2} from 'react-icons/rx';
+import {useMotionValueEvent, useScroll} from 'framer-motion';
+import {Link} from 'react-scroll';
+import './Navbar.css';
 
 export const Navbar = () => {
 	const [mobileMenuOpened, setMobileMenuOpened] = useState(false);
+	const [navStyle, setNavStyle] = useState('');
+	const {scrollYProgress} = useScroll();
+	useMotionValueEvent(scrollYProgress, 'change', (latest) => {
+		if (latest > 0.2) {
+			setNavStyle('sticky');
+		} else {
+			setNavStyle('');
+		}
+	});
 
 	return (
-		<div className='n-wrapper'>
+		<div className={`n-wrapper ${navStyle}`}>
 
 			{/* Desktop Version */}
 			<div className='container'>
@@ -22,10 +33,18 @@ export const Navbar = () => {
 					{/* Right Side */}
 					<div className='n-right'>
 						<div className='n-menu'>
-							<span>Services</span>
-							<span>DevOps</span>
-							<span>About</span>
-							<span>Containers</span>
+							<Link to='s-wrapper' spy={true} smooth={true}>
+								<span>Services</span>
+							</Link>
+							<Link to='dop-wrapper' spy smooth offset={100}>
+								<span>DevOps</span>
+							</Link>
+							<Link to='a-wrapper' spy smooth>
+								<span>About</span>
+							</Link>
+							<Link to='oc-wrapper' spy smooth offset={100}>
+								<span>Containers</span>
+							</Link>
 						</div>
 					</div>
 				</div>
@@ -51,10 +70,36 @@ export const Navbar = () => {
 				<div className='nm-menu'
 				style={{transform: mobileMenuOpened && 'translate(0%)'}}
 				>
-					<span>Services</span>
-					<span>DevOps</span>
-					<span>About</span>
-					<span>Containers</span>
+					<Link
+					onClick={() => setMobileMenuOpened(false)}
+					to='s-wrapper'
+					spy={true}
+					smooth={true}>
+						<span>Services</span>
+					</Link>
+					<Link
+					onClick={() => setMobileMenuOpened(false)}
+					to='dop-wrapper'
+					spy
+					smooth
+					offset={100}>
+						<span>DevOps</span>
+					</Link>
+					<Link
+					onClick={() => setMobileMenuOpened(false)}
+					to='a-wrapper'
+					spy
+					smooth>
+						<span>About</span>
+					</Link>
+					<Link
+					onClick={() => setMobileMenuOpened(false)}
+					to='oc-wrapper'
+					spy
+					smooth
+					offset={100}>
+						<span>Containers</span>
+					</Link>
 				</div>
 			</div>
 		</div>
