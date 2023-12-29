@@ -8,6 +8,7 @@
 .sticky {
 	position: fixed;
 	background: var(--background);
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.5);
 	top: 0;
 }
 

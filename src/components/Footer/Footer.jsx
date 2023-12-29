@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import PromoButton from '../PromoButton/PromoButton';
 import './Footer.css';
 
 const Footer = () => {
@@ -7,7 +8,9 @@ const Footer = () => {
 		<div className='f-wrapper'>
 			<div className="container">
 				<div className="f-container">
-					<a href='https://superklok.com/'>
+					<span className='f-promo'>Ace coding interviews with this</span>
+					<PromoButton/>
+					<a target='_blank' href='https://superklok.com/'>
 						<Image 
 						className='f-icon'
 						src='/superklok.png'

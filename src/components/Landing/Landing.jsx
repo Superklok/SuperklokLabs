@@ -1,6 +1,7 @@
 'use client'
 
 import React from 'react';
+import PromoButton from '../PromoButton/PromoButton';
 import {LandingData} from '@/src/Utils/data';
 import {motion} from 'framer-motion';
 import './Landing.css';
@@ -51,7 +52,7 @@ const Landing = () => {
 										variants={variants(track.delay)}
 										style={{backgroundColor: track.bg}}
 										className='track-pill-bg'>
-											<a href={track.link}>
+											<a target='_blank' href={track.link}>
 												<motion.img 
 												initial={'initial'}
 												animate={'animate'}
@@ -74,7 +75,7 @@ const Landing = () => {
 										variants={variants(track.delay)}
 										style={{backgroundColor: track.bg}}
 										className='track-pill-bg'>
-											<a href={track.link}>
+											<a target='_blank' href={track.link}>
 												<motion.img 
 												initial={'initial'}
 												animate={'animate'}
@@ -99,6 +100,10 @@ const Landing = () => {
 						<div className='l-desc'>
 							An IT consulting firm that specializes in JavaScript, DevOps, French/English translation, and music production.
 						</div>
+						<div className='l-promo'>
+							Ace coding interviews with this
+						</div>
+						<PromoButton/>
 					</div>
 				</div>
 			</div>

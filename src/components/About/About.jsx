@@ -38,7 +38,18 @@ const About = () => {
 									className='a-feature' 
 									key={i}>
 										<span className='desc'>{feature.title}</span>
-										<span className='text'>{feature.desc}</span>
+										<span className='text'>{feature.desc}
+											<a
+												className='a-link'
+												href='mailto:info@superklok.com'
+											>{feature.info}</a>
+												{feature.desc2}
+											<a
+												className='a-link'
+												href='mailto:sales@superklok.com'
+											>{feature.sales}</a>
+												{feature.desc3}
+										</span>
 									</motion.div>
 								))
 							}
@@ -50,12 +61,14 @@ const About = () => {
 						<motion.video 
 						variants={containerVariants(0.5)}
 						initial='offscreen'
-						whileInView={'onscreen'} 
+						whileInView={'onscreen'}
 						className='a-video'
-						loop 
-						muted 
-						autoPlay 
-						controls=''>
+						loop
+						muted
+						autoPlay
+						controls=''
+						webkit-playsInline
+						playsInline>
 							<source src='/contact.mp4' type='video/mp4'/>
 						</motion.video>
 					</div>

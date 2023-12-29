@@ -22,6 +22,8 @@ const PromoVid = () => {
 				muted 
 				autoPlay 
 				controls=''
+				webkit-playsInline
+				playsInline
 				style={{scale}}>
 					<source src='/promo.mp4' type='video/mp4'/>
 				</motion.video>

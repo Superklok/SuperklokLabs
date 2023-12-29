@@ -27,7 +27,9 @@ export const Navbar = () => {
 				<div className='n-container'>
 					{/* Left Side */}
 					<div className='n-logo'>
-						<span>Superklok Labs</span>
+						<Link to='l-wrapper' spy={true} smooth={true}>
+							<span>Superklok Labs</span>
+						</Link>
 					</div>
 
 					{/* Right Side */}
@@ -53,7 +55,14 @@ export const Navbar = () => {
 			{/* Mobile Version */}
 			<div className='nm-container'>
 				{/* Logo */}
-				<span>Superklok Labs</span>
+				<Link
+					onClick={() => setMobileMenuOpened(false)}
+					to='l-wrapper'
+					spy={true}
+					smooth={true}>
+						<span>Superklok Labs</span>
+				</Link>
+				
 
 				{/* Menu Icon */}
 				{

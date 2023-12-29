@@ -67,7 +67,7 @@ const DevOps = () => {
 
 									{/* Right Side */}
 									<div className='icon'>
-										<a href={feature.link}>
+										<a target='_blank' href={feature.link}>
 											<Image 
 											src={feature.icon} 
 											width={128} 

@@ -40,7 +40,7 @@ const Connect = () => {
 								variants={containerVariants((i+1)*0.1)}
 								key={i} 
 								className='c-feature'>
-									<a href={feature.link}>
+									<a target='_blank' href={feature.link}>
 										<Image 
 										className='c-icon'
 										src={feature.icon} 

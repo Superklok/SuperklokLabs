@@ -59,7 +59,7 @@ const OurServices = () => {
 										variants={containerVariants((i+1)*0.1)}
 										className='s-service' 
 										key={i}>
-											<a href={Service.link}>
+											<a target='_blank' href={Service.link}>
 												<Image 
 												className='s-icon'
 												src={Service.icon} 
@@ -95,7 +95,7 @@ const OurServices = () => {
 										variants={containerVariants((i+1)*0.1)}
 										className='s-service'
 										key={i}>
-											<a href={Service.link}>
+											<a target='_blank' href={Service.link}>
 												<Image 
 												className='s-icon'
 												src={Service.icon} 
