@@ -103,7 +103,9 @@ const Landing = () => {
 						<div className='l-promo'>
 							Ace coding interviews with this
 						</div>
-						<PromoButton/>
+						<div className="l-button">
+							<PromoButton/>
+						</div>
 					</div>
 				</div>
 			</div>

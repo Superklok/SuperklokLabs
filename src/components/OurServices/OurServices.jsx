@@ -24,7 +24,7 @@ const OurServices = () => {
 						initial='offscreen'
 						whileInView={'onscreen'}
 						variants={titleVariants}
-						className='title'>
+						className='s-secondary'>
 							{''}
 							Applying innovative conceptualization to music production, web design & custom luxury PC builds
 						</motion.span>
@@ -32,7 +32,7 @@ const OurServices = () => {
 						initial='offscreen'
 						whileInView={'onscreen'}
 						variants={descVariants}
-						className='desc'>Here's how we take care of business:</motion.span>
+						className='s-desc'>Here's how we take care of business:</motion.span>
 					</div>
 
 					{/* Service Sections */}
@@ -44,12 +44,12 @@ const OurServices = () => {
 							initial='offscreen'
 							whileInView={'onscreen'}
 							variants={titleVariants}
-							className='sec-title'>Web Design</motion.span>
+							className='s-title'>Web Design</motion.span>
 							<motion.span 
 							initial='offscreen'
 							whileInView={'onscreen'}
 							variants={descVariants}
-							className='text'>Sophisticated apps that stand out.</motion.span>
+							className='s-text s-limit'>Sophisticated apps that stand out.</motion.span>
 							<div className='s-services'>
 								{
 									Services.slice(0,3).map((Service, i)=> (
@@ -67,7 +67,7 @@ const OurServices = () => {
 												width={60} 
 												height={60}/>
 											</a>					
-											<span>{Service.title}</span>
+											<a className='s-link' target='_blank' href={Service.link}>{Service.title}</a>
 										</motion.div>
 									))
 								}
@@ -80,12 +80,12 @@ const OurServices = () => {
 							initial='offscreen'
 							whileInView={'onscreen'}
 							variants={titleVariants}
-							className='sec-title'>Music Production</motion.span>
+							className='s-title'>Music Production</motion.span>
 							<motion.span 
 							initial='offscreen'
 							whileInView={'onscreen'}
 							variants={descVariants}
-							className='text'>Original music & promotional content.</motion.span>
+							className='s-text s-limit'>Original music & promotional content.</motion.span>
 							<div className='s-services'>
 								{
 									Services.slice(3,6).map((Service, i)=> (
@@ -103,7 +103,7 @@ const OurServices = () => {
 												width={60} 
 												height={60}/>
 											</a>				
-											<span>{Service.title}</span>
+											<a className='s-link' target='_blank' href={Service.link}>{Service.title}</a>
 										</motion.div>
 									))
 								}
@@ -120,16 +120,16 @@ const OurServices = () => {
 
 						{/* Left Side */}
 						<div>
-							<span className='sec-title'>Custom Luxury PC Builds</span>
-							<span className='desc'>We only procure the finest PC parts and each of our unique custom builds are engineered using extremely meticulous care.</span>
+							<span className='s-title'>Custom Luxury<br className='s-break'/> PC Builds</span>
+							<span className='s-text s-left'>We only procure the finest PC parts and each of our unique custom builds are engineered using extremely meticulous care.</span>
 						</div>
 
 						{/* Right Side */}
 						<div>
-							<span className='text'>
+							<span className='s-text'>
 								Whether you're looking for a powerful gaming rig or an ultra-silent server, we specialize in conceptualizing and crafting the perfect solution to meet your specific requirements.
 							</span>
-							<span className='text'>
+							<span className='s-text'>
 								It starts with sourcing high-end components from across the globe then assembling them using experienced engineering techniques to create bleeding-edge custom PCs which always surpass client expectations.
 							</span>
 						</div>

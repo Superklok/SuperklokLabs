@@ -56,6 +56,14 @@
 	display: none;
 }
 
+.nm-container span {
+	cursor: pointer;
+}
+
+.nm-menu span {
+	cursor: pointer;
+}
+
 @media (max-width: 1200px) {
 	.n-container {
 		display: none;

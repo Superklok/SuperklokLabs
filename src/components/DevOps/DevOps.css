@@ -1,5 +1,5 @@
 .dop-wrapper {
-	padding-top: 13rem;
+	padding-top: 11.4rem;
 }
 
 .dop-container {
@@ -18,6 +18,11 @@
 	margin-right: auto;
 	margin-top: auto;
 	margin-bottom: 1.4rem;
+}
+
+.dop-link {
+	-webkit-text-stroke: 1px #000 !important;
+	text-decoration: none !important;
 }
 
 .dop-features {

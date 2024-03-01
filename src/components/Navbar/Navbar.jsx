@@ -69,8 +69,10 @@ export const Navbar = () => {
 					!mobileMenuOpened ?
 					<BiMenuAltRight
 					size={30}
+					cursor={'pointer'}
 					onClick={()=>setMobileMenuOpened(true)}
 					/> : <RxCross2 size={30} 
+					cursor={'pointer'}
 					onClick={()=>setMobileMenuOpened(false)}
 					/>
 				}

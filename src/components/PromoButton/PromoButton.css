@@ -7,9 +7,9 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 70%;
 	position: relative;
 	overflow: hidden;
+	max-width: 30.5rem;
 }
 
 .p-icon {
@@ -36,12 +36,21 @@
 	text-decoration: none;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 992px) {
 	.p-icon {
-		width: 30px;
-		height: 30px;
+		width: 32px;
+		height: 32px;
+		border-radius: 5px;
+		box-shadow: -1px 1px 0 rgba(0, 230, 227, 0.8),
+		1px 1px 0 rgba(0, 230, 227, 0.8),
+		1px -1px 0 rgba(0, 230, 227, 0.8),
+		-1px -1px 0 rgba(0, 230, 227, 0.8),
+		0 0 10px rgba(0, 230, 227, 0.8),
+		0 0 15px rgba(0, 230, 227, 0.8);
 	}
 	.p-link {
 		font-size: 2.1rem;
+		text-shadow: 0 0 10px rgba(0, 230, 227, 0.8),
+				 0 0 15px rgba(0, 230, 227, 0.8);
 	}
 }

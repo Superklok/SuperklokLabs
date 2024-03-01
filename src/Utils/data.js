@@ -40,7 +40,7 @@ export const LandingData = [
 export const Services = [
 	{
 		icon: '/Services/Frame-0.png',
-		title: 'React.js',
+		title: 'React',
 		link: 'https://react.dev/learn',
 	},
 	{
@@ -138,7 +138,7 @@ export const AboutUs = [
 export const ContainerData = [
 	{
 		icon: '/Containers/Frame-0.jpg',
-		title: 'Swingcars (English)',
+		title: '[EN] Swingcars',
 		desc: 'Swingcars is a social media app intended to facilitate vehicle swapping between drivers.',
 		docker: 'https://hub.docker.com/r/superklok/swingcarsdotnet',
 		dockerImg: '/DevOps/Frame-0.png',
@@ -147,7 +147,7 @@ export const ContainerData = [
 	},
 	{
 		icon: '/Containers/Frame-1.jpg',
-		title: 'The Current Courant (English)',
+		title: '[EN] Current Courant',
 		desc: 'The Current Courant is newspaper app that allows users to publish their own articles.',
 		docker: 'https://hub.docker.com/r/superklok/currentcourantdotcom',
 		dockerImg: '/DevOps/Frame-0.png',
@@ -156,8 +156,8 @@ export const ContainerData = [
 	},
 	{
 		icon: '/Containers/Frame-2.jpg',
-		title: 'Jet Wheel Reel (English)',
-		desc: 'Jet Wheel Reel is an educational site that demonstrates the correct way to carry out a wheel change procedure on a Beechcraft 1900D.',
+		title: '[EN] Jet Wheel Reel',
+		desc: 'Jet Wheel Reel is an educational site that demonstrates a wheel change on a Beechcraft 1900D.',
 		docker: 'https://hub.docker.com/r/superklok/jetwheelreeldotcom',
 		dockerImg: '/DevOps/Frame-0.png',
 		github: 'https://github.com/Superklok/JetWheelReelDotCom',
@@ -165,7 +165,7 @@ export const ContainerData = [
 	},
 	{
 		icon: '/Containers/Frame-3.png',
-		title: 'Slider Piler (English)',
+		title: '[EN] Slider Piler',
 		desc: 'Slider Piler is an online ordering app which currently consists of a create-your-own sandwich builder.',
 		docker: 'https://hub.docker.com/r/superklok/sliderpilerdotcom',
 		dockerImg: '/DevOps/Frame-0.png',
@@ -174,7 +174,7 @@ export const ContainerData = [
 	},
 	{
 		icon: '/Containers/Frame-4.jpg',
-		title: 'TrevMorin.com (English)',
+		title: '[EN] TrevMorin.com',
 		desc: 'TrevMorin.com is a portfolio website that showcases each web design concept created by Superklok Labs.',
 		docker: 'https://hub.docker.com/r/superklok/trevmorindotcom',
 		dockerImg: '/DevOps/Frame-0.png',
@@ -183,7 +183,7 @@ export const ContainerData = [
 	},
 	{
 		icon: '/Containers/Frame-5.jpg',
-		title: 'Superklok Labs (English)',
+		title: '[EN] Superklok Labs',
 		desc: 'The Superklok Labs company website provides a technical and detailed description of each available service.',
 		docker: 'https://hub.docker.com/r/superklok/superklokdotcom',
 		dockerImg: '/DevOps/Frame-0.png',
@@ -192,8 +192,8 @@ export const ContainerData = [
 	},
 	{
 		icon: '/Containers/Frame-6.jpg',
-		title: 'React Crypto Stats (English)',
-		desc: 'Crypto Stats is a cryptocurrency statistical analysis app that uses Chart.js to illustrate market performance.',
+		title: '[EN] React Crypto Stats',
+		desc: 'Crypto Stats is a cryptocurrency analysis app that uses Chart.js to illustrate market performance.',
 		docker: 'https://hub.docker.com/r/superklok/reactcryptostats',
 		dockerImg: '/DevOps/Frame-0.png',
 		github: 'https://github.com/Superklok/ReactCryptoStats',
@@ -201,8 +201,8 @@ export const ContainerData = [
 	},
 	{
 		icon: '/Containers/Frame-7.jpg',
-		title: 'React Candy Crush (English)',
-		desc: 'This is a React replica of Candy Crush for Desktop/Laptop that was programmed with the useState and useEffect React Hooks.',
+		title: '[EN] React Candy Crush',
+		desc: 'This is a React replica of Candy Crush for PC that was coded with the useState and useEffect React Hooks.',
 		docker: 'https://hub.docker.com/r/superklok/reactcandycrush',
 		dockerImg: '/DevOps/Frame-0.png',
 		github: 'https://github.com/Superklok/ReactCandyCrush',
@@ -210,7 +210,7 @@ export const ContainerData = [
 	},
 	{
 		icon: '/Containers/Frame-8.png',
-		title: 'React Task Tracker (English)',
+		title: '[EN] React Task Tracker',
 		desc: 'A to-do list that demonstrates CRUD functionality. V1.19.1 uses a database and the demo, v2.2.1, uses the DOM.',
 		docker: 'https://hub.docker.com/r/superklok/reacttasktracker',
 		dockerImg: '/DevOps/Frame-0.png',
@@ -219,7 +219,7 @@ export const ContainerData = [
 	},
 	{
 		icon: '/Containers/Frame-9.jpg',
-		title: 'Swingcars (French)',
+		title: '[FR] Swingcars',
 		desc: 'Swingcars est une appli de médias sociaux destinée à faciliter l\'échange de véhicules entre conducteurs.',
 		docker: 'https://hub.docker.com/r/superklok/swingcarspointca',
 		dockerImg: '/DevOps/Frame-0.png',
@@ -228,8 +228,8 @@ export const ContainerData = [
 	},
 	{
 		icon: '/Containers/Frame-10.jpg',
-		title: 'Le Current Courant (French)',
-		desc: 'Le Current Courant est une appli journalistique qui permet aux utilisateurs de publier leurs propres articles.',
+		title: '[FR] Current Courant',
+		desc: 'Le Current Courant est une appli journalistique qui vous permet de publier vos propres articles.',
 		docker: 'https://hub.docker.com/r/superklok/currentcourantpointca',
 		dockerImg: '/DevOps/Frame-0.png',
 		github: 'https://github.com/Superklok/CurrentCourantPointCa',
@@ -237,8 +237,8 @@ export const ContainerData = [
 	},
 	{
 		icon: '/Containers/Frame-11.jpg',
-		title: 'Jet Wheel Reel (French)',
-		desc: 'Jet Wheel Reel est un site éducatif qui montre la manière correcte d\'effectuer une procédure de changement de roue sur un Beechcraft 1900D.',
+		title: '[FR] Jet Wheel Reel',
+		desc: 'Jet Wheel Reel est un site éducatif qui vous montrez comment changer le roue d\'un Beechcraft 1900D.',
 		docker: 'https://hub.docker.com/r/superklok/jetwheelreelpointca',
 		dockerImg: '/DevOps/Frame-0.png',
 		github: 'https://github.com/Superklok/JetWheelReelPointCa',
@@ -246,8 +246,8 @@ export const ContainerData = [
 	},
 	{
 		icon: '/Containers/Frame-12.png',
-		title: 'Slider Piler (French)',
-		desc: 'Slider Piler est une application de resto qui consiste actuellement d\'un outil de création de sandwichs à la vôtre.',
+		title: '[FR] Slider Piler',
+		desc: 'Slider Piler est une application de resto qui consiste actuellement d\'un outil de création de sandwichs.',
 		docker: 'https://hub.docker.com/r/superklok/sliderpilerpointca',
 		dockerImg: '/DevOps/Frame-0.png',
 		github: 'https://github.com/Superklok/SliderPilerPointCa',
@@ -255,7 +255,7 @@ export const ContainerData = [
 	},
 	{
 		icon: '/Containers/Frame-13.jpg',
-		title: 'TrevMorin.ca (French)',
+		title: '[FR] TrevMorin.ca',
 		desc: 'TrevMorin.ca est un site web de portfolio qui présente chaque concept d\'appli créé par Superklok Labs.',
 		docker: 'https://hub.docker.com/r/superklok/trevmorinpointca',
 		dockerImg: '/DevOps/Frame-0.png',
@@ -264,11 +264,20 @@ export const ContainerData = [
 	},
 	{
 		icon: '/Containers/Frame-14.jpg',
-		title: 'Superklok Labs (French)',
-		desc: 'Le site web de l\'entreprise Superklok Labs fournit une description technique et détaillée de chaque service disponible.',
+		title: '[FR] Superklok Labs',
+		desc: 'Le site web de l\'entreprise Superklok Labs fournit une description détaillée de chaque service disponible.',
 		docker: 'https://hub.docker.com/r/superklok/superklokpointca',
 		dockerImg: '/DevOps/Frame-0.png',
 		github: 'https://github.com/Superklok/SuperklokPointCa',
+		githubImg: '/Connect/Frame-0.png',
+	},
+	{
+		icon: '/Containers/Frame-15.png',
+		title: '[EN] This Website',
+		desc: 'The LIVE running production version of the Superklok Labs corporate website, coded in Next.js and React.',
+		docker: 'https://hub.docker.com/r/superklok/superkloklabs',
+		dockerImg: '/DevOps/Frame-0.png',
+		github: 'https://github.com/Superklok/SuperklokLabs',
 		githubImg: '/Connect/Frame-0.png',
 	},
 ];

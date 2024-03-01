@@ -1,5 +1,6 @@
 .c-wrapper {
-	padding-top: 15rem;
+	padding-top: 3.4rem;
+	margin-bottom: -6.8rem;
 }
 
 .c-container {
@@ -23,9 +24,11 @@
 
 .c-title {
 	font-size: 2.2rem;
+	-webkit-text-stroke: 1px #000 !important;
 	color: var(--fourth-color);
 	text-align: center;
 	line-height: 3rem;
+	text-decoration: none !important;
 }
 
 .c-head .text {
@@ -58,11 +61,35 @@
 
 .c-feature .text {
 	text-align: center;
+	width: 100%;
+}
+
+.c-break {
+	display: none;
+}
+
+.c-latest {
+	font-size: 2.6rem;
+	color: var(--text-color);
+	text-align: center;
+	line-height: 3.5rem;
+	text-transform: capitalize;
+}
+
+.c-text {
+	color: var(--text-color);
+	font-size: 1.8rem;
+	line-height: 1.8rem;
+	width: 850px;
+	margin-bottom: 1.2rem;
 }
 
 @media (max-width: 990px) {
 	.c-features {
 		flex-direction: column;
+	}
+	.c-text {
+		width: 475px;
 	}
 }
 
@@ -70,5 +97,17 @@
 	.c-feature {
 		width: 80%;
 		margin: auto;
+	}
+	.c-feature .text {
+		width: 300px;
+	}
+	.c-break {
+		display: block;
+	}
+	.c-latest {
+		line-height: 3.1rem;
+	}
+	.c-text {
+		width: 320px;
 	}
 }

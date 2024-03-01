@@ -61,7 +61,7 @@ const DevOps = () => {
 										}
 									}}
 									className='detail'>
-										<span className='sec-title'>{feature.title}</span>
+										<a className='sec-title dop-link' target='_blank' href={feature.link}>{feature.title}</a>
 										<span className='text'>{feature.desc}</span>
 									</motion.div>
 

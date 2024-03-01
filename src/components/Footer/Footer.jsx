@@ -9,15 +9,18 @@ const Footer = () => {
 			<div className="container">
 				<div className="f-container">
 					<span className='f-promo'>Ace coding interviews with this</span>
-					<PromoButton/>
-					<a target='_blank' href='https://superklok.com/'>
-						<Image 
-						className='f-icon'
-						src='/superklok.png'
-						width={315} 
-						height={75}
-						alt='superklok'/>
-					</a>
+					<div className='f-button'>
+						<PromoButton/>
+					</div>
+					<div className='f-icon'>
+						<a target='_blank' href='https://superklok.com/'>
+							<Image 
+							src='/superklok.png'
+							width={315} 
+							height={75}
+							alt='superklok'/>
+						</a>
+					</div>
 					<span className='text'>Copyright {(new Date().getFullYear())} Superklok Labs</span>
 				</div>
 			</div>

@@ -22,12 +22,12 @@ const Connect = () => {
 						initial='offscreen'
 						whileInView={'onscreen'}
 						variants={titleVariants}
-						className='title'>For The Latest Superklok Labs Releases</motion.span>
+						className='c-latest'>For The Latest<br className='c-break'/> Superklok Labs Releases</motion.span>
 						<motion.span 
 						initial='offscreen'
 						whileInView={'onscreen'}
 						variants={descVariants}
-						className='text'>Our mission is to level the playing field for aspiring coders and musicians. We make sure talented individuals have all the premium self-serve resources they need to make their own music or code an app. All repositories, containers, and Superklok music tracks are available to everyone free of charge.</motion.span>
+						className='c-text'>Our mission is to level the playing field for aspiring coders and musicians. We make sure talented individuals have all the premium self-serve resources they need to make their own music or code an app. All repositories, containers, and Superklok music tracks are available to everyone free of charge.</motion.span>
 					</div>
 
 					{/* Features */}
@@ -48,7 +48,7 @@ const Connect = () => {
 										width={128} 
 										height={128}/>
 									</a>
-									<span className='c-title'>{feature.title}</span>
+									<a className='c-title' target='_blank' href={feature.link}>{feature.title}</a>
 									<span className='text'>{feature.desc}</span>
 								</motion.div>
 							))

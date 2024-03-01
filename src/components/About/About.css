@@ -1,5 +1,6 @@
 .a-wrapper .container {
-	padding-top: 13rem;
+	padding-top: 5.2rem;
+	margin-bottom: -5.5rem;
 }
 
 .a-container {
@@ -16,6 +17,7 @@
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
+	padding-left: 1rem;
 }
 
 .a-left .head {
@@ -27,6 +29,7 @@
 
 .a-left .head .title {
 	text-align: left;
+	line-height: 3.1rem;
 }
 
 .a-features {
@@ -58,7 +61,8 @@
 }
 
 .a-right video {
-	width: 100%;
+	padding-top: 1rem;
+	max-width: 28rem;
 	border-radius: 2rem;
 }
 
@@ -70,9 +74,18 @@
 }
 
 @media (max-width: 990px) {
+	.a-wrapper .container {
+		margin-bottom: -7.8rem;
+	}
+	.a-wrapper .container {
+		padding-top: 3.4rem;
+	}
 	.a-container {
 		flex-direction: column;
 		padding: 2rem;
+	}
+	.a-left {
+		padding-left: 0rem;
 	}
 	.a-right {
 		align-self: center;
