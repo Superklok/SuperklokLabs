@@ -89,7 +89,8 @@
 		flex-direction: column;
 	}
 	.c-text {
-		width: 475px;
+		width: 445px;
+		text-align: center;
 	}
 }
 

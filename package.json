@@ -1,6 +1,6 @@
 {
   "name": "superkloklabs",
-  "version": "1.12.33",
+  "version": "1.12.43",
   "description": "SuperklokLabs.com",
   "private": true,
   "scripts": {
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "https://github.com/Superklok/SuperklokLabs.git"
   },
-  "author": "Trev Morin <trev@superklok.com> (http://superklok.com)",
+  "author": "Trevor Morin <trev@superklok.com> (https://superkloklabs.com)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Superklok/SuperklokLabs/issues"

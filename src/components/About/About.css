@@ -1,5 +1,5 @@
 .a-wrapper .container {
-	padding-top: 5.2rem;
+	padding-top: 6.11rem;
 	margin-bottom: -5.5rem;
 }
 
@@ -49,19 +49,15 @@
 	color: var(--third-color);
 }
 
-.a-feature .text {
-	text-align: justify;
-}
-
 .a-right {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	align-self: flex-end;
+	padding-top: 1rem;
 }
 
 .a-right video {
-	padding-top: 1rem;
 	max-width: 28rem;
 	border-radius: 2rem;
 }
