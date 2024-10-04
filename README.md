@@ -1,4 +1,4 @@
-# [SuperklokLabs.com][SuperklokLabs] v1.12.43
+# [SuperklokLabs.com][SuperklokLabs] v1.12.48
 <br />
 
 ## Basic Root User Deployment Guide For App Evaluation
