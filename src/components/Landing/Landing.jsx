@@ -98,7 +98,12 @@ const Landing = () => {
 							<span>Going Gangbusters!!</span>
 						</div>
 						<div className='l-desc'>
-							An IT consulting firm that specializes in JavaScript, DevOps, French/English translation, and music production.
+							An IT Consulting Firm that specializes in JavaScript, DevOps, French/English Translation &
+							<a
+								target='_blank'
+								className='l-link'
+								href='https://superklok.com/'
+							> Music Production</a>.
 						</div>
 						<div className='l-promo'>
 							Ace coding interviews with this

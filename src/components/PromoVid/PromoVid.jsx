@@ -15,18 +15,23 @@ const PromoVid = () => {
 	return (
 		<div className='pv-container'>
 			<din className='container'>
-				<motion.video 
-				ref={ref}
-				className='pv-video'
-				loop 
-				muted 
-				autoPlay 
-				controls=''
-				webkit-playsInline
-				playsInline
-				style={{scale}}>
-					<source src='/promo.mp4' type='video/mp4'/>
-				</motion.video>
+				<a
+					target='_blank'
+					href='https://youtu.be/7yRK4rkA9Zs'
+				>
+					<motion.video 
+					ref={ref}
+					className='pv-video'
+					loop 
+					muted 
+					autoPlay 
+					controls=''
+					webkit-playsInline
+					playsInline
+					style={{scale}}>
+						<source src='/promo.mp4' type='video/mp4'/>
+					</motion.video>
+				</a>
 			</din>
 		</div>
 	);

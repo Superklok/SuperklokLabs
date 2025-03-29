@@ -7,8 +7,8 @@ export const LandingData = [
 	},
 	{
 		src: 'Landing/Track2.jpg',
-		bg: '#BB3C28',
-		link: 'https://youtu.be/hJrrhVckr2A',
+		bg: '#5B0097',
+		link: 'https://youtu.be/6cG6HLHDzhI',
 		delay: 0.3,
 	},
 	{
@@ -25,14 +25,14 @@ export const LandingData = [
 	},
 	{
 		src: 'Landing/Track5.jpg',
-		bg: '#C77C29',
-		link: 'https://youtu.be/x7qZvLhRbgI',
+		bg: '#B13319',
+		link: 'https://youtu.be/_ddWZoMhlO0',
 		delay: 0.3,
 	},
 	{
 		src: 'Landing/Track6.jpg',
-		bg: '#800080',
-		link: 'https://youtu.be/j61fOL6ONq0',
+		bg: '#3F00BF',
+		link: 'https://youtu.be/fHx-4ip4iqU',
 		delay: 0.25,
 	},
 ];
@@ -72,6 +72,12 @@ export const Services = [
 
 export const ConnectFeatures = [
 	{
+		icon: '/Connect/Frame-2.png',
+		title: 'LinkedIn',
+		link: 'https://www.linkedin.com/company/superkloklabs',
+		desc: 'Follow us on LinkedIn for company updates & exclusive content!',
+	},
+	{
 		icon: '/Connect/Frame-0.png',
 		title: 'GitHub',
 		link: 'https://github.com/Superklok',
@@ -81,13 +87,7 @@ export const ConnectFeatures = [
 		icon: '/Connect/Frame-1.png',
 		title: 'YouTube',
 		link: 'https://www.youtube.com/channel/UCNnuDVs9xXqT5PrbL-uP7Vw',
-		desc: 'Check out original music & gaming videos on our YouTube channel!',
-	},
-	{
-		icon: '/Connect/Frame-2.png',
-		title: 'TikTok',
-		link: 'https://www.tiktok.com/@superklok?',
-		desc: 'Follow us on TikTok to see our LIVE streams and exclusive content!',
+		desc: 'Check out music videos & virtual reality on our YouTube channel!',
 	},
 ];
 
@@ -115,11 +115,15 @@ export const DevOpsFeatures = [
 export const AboutUs = [
 	{
 		title: 'The Company',
-		desc: 'Superklok Labs is an IT consulting firm that specializes in JavaScript, React, Next.js, AWS DevOps Engineering, PC building, French/English translation, music production, and graphic design.',
+		desc: 'Superklok Labs is an IT consulting firm that specializes in JavaScript, React, Next.js, AWS DevOps Engineering, PC building, French/English Translation, ',
+		music: 'Music Production',
+		desc4: ' & Graphic Design.',
 	},
 	{
 		title: 'Our Mission',
-		desc: 'Conceptualizing then creating JavaScript applications, custom PCs, music, graphics, and videos that stand out thanks to unique design choices.',
+		desc: 'Conceptualizing then creating JavaScript Applications, Custom PCs, ',
+		music: 'Music',
+		desc4: ', Graphics, and Videos that stand out thanks to unique design choices.',
 	},
 	{
 		title: 'Fully Bilingual',
@@ -137,6 +141,15 @@ export const AboutUs = [
 
 export const ContainerData = [
 	{
+		icon: '/Containers/Frame-15.png',
+		title: '[EN] This Website',
+		desc: 'The LIVE running production version of the Superklok Labs corporate website, coded in Next.js and React.',
+		docker: 'https://hub.docker.com/r/superklok/superkloklabs',
+		dockerImg: '/DevOps/Frame-0.png',
+		github: 'https://github.com/Superklok/SuperklokLabs',
+		githubImg: '/Connect/Frame-0.png',
+	},
+	{
 		icon: '/Containers/Frame-0.jpg',
 		title: '[EN] Swingcars',
 		desc: 'Swingcars is a social media app intended to facilitate vehicle swapping between drivers.',
@@ -146,21 +159,21 @@ export const ContainerData = [
 		githubImg: '/Connect/Frame-0.png',
 	},
 	{
-		icon: '/Containers/Frame-1.jpg',
-		title: '[EN] Current Courant',
-		desc: 'The Current Courant is newspaper app that allows users to publish their own articles.',
-		docker: 'https://hub.docker.com/r/superklok/currentcourantdotcom',
-		dockerImg: '/DevOps/Frame-0.png',
-		github: 'https://github.com/Superklok/CurrentCourantDotCom',
-		githubImg: '/Connect/Frame-0.png',
-	},
-	{
 		icon: '/Containers/Frame-2.jpg',
 		title: '[EN] Jet Wheel Reel',
 		desc: 'Jet Wheel Reel is an educational site that demonstrates a wheel change on a Beechcraft 1900D.',
 		docker: 'https://hub.docker.com/r/superklok/jetwheelreeldotcom',
 		dockerImg: '/DevOps/Frame-0.png',
 		github: 'https://github.com/Superklok/JetWheelReelDotCom',
+		githubImg: '/Connect/Frame-0.png',
+	},
+	{
+		icon: '/Containers/Frame-1.jpg',
+		title: '[EN] Current Courant',
+		desc: 'The Current Courant is newspaper app that allows users to publish their own articles.',
+		docker: 'https://hub.docker.com/r/superklok/currentcourantdotcom',
+		dockerImg: '/DevOps/Frame-0.png',
+		github: 'https://github.com/Superklok/CurrentCourantDotCom',
 		githubImg: '/Connect/Frame-0.png',
 	},
 	{
@@ -227,21 +240,21 @@ export const ContainerData = [
 		githubImg: '/Connect/Frame-0.png',
 	},
 	{
-		icon: '/Containers/Frame-10.jpg',
-		title: '[FR] Current Courant',
-		desc: 'Le Current Courant est une appli journalistique qui vous permet de publier vos propres articles.',
-		docker: 'https://hub.docker.com/r/superklok/currentcourantpointca',
-		dockerImg: '/DevOps/Frame-0.png',
-		github: 'https://github.com/Superklok/CurrentCourantPointCa',
-		githubImg: '/Connect/Frame-0.png',
-	},
-	{
 		icon: '/Containers/Frame-11.jpg',
 		title: '[FR] Jet Wheel Reel',
 		desc: 'Jet Wheel Reel est un site éducatif qui vous montrez comment changer le roue d\'un Beechcraft 1900D.',
 		docker: 'https://hub.docker.com/r/superklok/jetwheelreelpointca',
 		dockerImg: '/DevOps/Frame-0.png',
 		github: 'https://github.com/Superklok/JetWheelReelPointCa',
+		githubImg: '/Connect/Frame-0.png',
+	},
+	{
+		icon: '/Containers/Frame-10.jpg',
+		title: '[FR] Current Courant',
+		desc: 'Le Current Courant est une appli journalistique qui vous permet de publier vos propres articles.',
+		docker: 'https://hub.docker.com/r/superklok/currentcourantpointca',
+		dockerImg: '/DevOps/Frame-0.png',
+		github: 'https://github.com/Superklok/CurrentCourantPointCa',
 		githubImg: '/Connect/Frame-0.png',
 	},
 	{
@@ -269,15 +282,6 @@ export const ContainerData = [
 		docker: 'https://hub.docker.com/r/superklok/superklokpointca',
 		dockerImg: '/DevOps/Frame-0.png',
 		github: 'https://github.com/Superklok/SuperklokPointCa',
-		githubImg: '/Connect/Frame-0.png',
-	},
-	{
-		icon: '/Containers/Frame-15.png',
-		title: '[EN] This Website',
-		desc: 'The LIVE running production version of the Superklok Labs corporate website, coded in Next.js and React.',
-		docker: 'https://hub.docker.com/r/superklok/superkloklabs',
-		dockerImg: '/DevOps/Frame-0.png',
-		github: 'https://github.com/Superklok/SuperklokLabs',
 		githubImg: '/Connect/Frame-0.png',
 	},
 ];

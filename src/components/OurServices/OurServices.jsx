@@ -26,7 +26,12 @@ const OurServices = () => {
 						variants={titleVariants}
 						className='s-secondary'>
 							{''}
-							Applying innovative conceptualization to music production, web design & custom luxury PC builds
+							Applying innovative conceptualization to web design,
+							<a
+								target='_blank'
+								className='s-linkGlow'
+								href='https://superklok.com/'
+							> Music Production </a>& custom luxury PC builds
 						</motion.span>
 						<motion.span 
 						initial='offscreen'
@@ -85,7 +90,12 @@ const OurServices = () => {
 							initial='offscreen'
 							whileInView={'onscreen'}
 							variants={descVariants}
-							className='s-text s-limit'>Original music & promotional content.</motion.span>
+							className='s-text s-limit'>
+								<a
+									target='_blank'
+									className='s-linkGlow'
+									href='https://superklok.com/'
+								>Original Music </a>& promotional content.</motion.span>
 							<div className='s-services'>
 								{
 									Services.slice(3,6).map((Service, i)=> (

@@ -27,7 +27,12 @@ const Connect = () => {
 						initial='offscreen'
 						whileInView={'onscreen'}
 						variants={descVariants}
-						className='c-text'>Our mission is to level the playing field for aspiring coders and musicians. We make sure talented individuals have all the premium self-serve resources they need to make their own music or code an app. All repositories, containers, and Superklok music tracks are available to everyone free of charge.</motion.span>
+						className='c-text'>Our mission is to level the playing field for aspiring coders and musicians. We make sure talented individuals have all the premium self-serve resources they need to make their own music or code an app. All repositories, containers &
+						<a
+							target='_blank'
+							className='c-link'
+							href='https://superklok.com/'
+						> Superklok Music Tracks </a>are available to everyone free of charge.</motion.span>
 					</div>
 
 					{/* Features */}

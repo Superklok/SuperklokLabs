@@ -49,6 +49,12 @@ const About = () => {
 												href='mailto:sales@superklok.com'
 											>{feature.sales}</a>
 												{feature.desc3}
+											<a
+												target='_blank'
+												className='a-link'
+												href='https://superklok.com/'
+											>{feature.music}</a>
+												{feature.desc4}
 										</span>
 									</motion.div>
 								))
@@ -58,19 +64,24 @@ const About = () => {
 
 					{/* Right Side */}
 					<div className='a-right'>
-						<motion.video 
-						variants={containerVariants(0.5)}
-						initial='offscreen'
-						whileInView={'onscreen'}
-						className='a-video'
-						loop
-						muted
-						autoPlay
-						controls=''
-						webkit-playsInline
-						playsInline>
-							<source src='/contact.mp4' type='video/mp4'/>
-						</motion.video>
+						<a
+							target='_blank'
+							href='https://www.tiktok.com/@superklok/video/7420212626535320837'
+						>
+							<motion.video 
+							variants={containerVariants(0.5)}
+							initial='offscreen'
+							whileInView={'onscreen'}
+							className='a-video'
+							loop
+							muted
+							autoPlay
+							controls=''
+							webkit-playsInline
+							playsInline>
+								<source src='/contact.mp4' type='video/mp4'/>
+							</motion.video>
+						</a>
 					</div>
 				</div>
 			</div>
