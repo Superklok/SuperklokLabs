@@ -66,7 +66,7 @@ const About = () => {
 					<div className='a-right'>
 						<a
 							target='_blank'
-							href='https://www.tiktok.com/@superklok/video/7420212626535320837'
+							href='https://www.tiktok.com/@superklok/video/7484758584127982853'
 						>
 							<motion.video 
 							variants={containerVariants(0.5)}

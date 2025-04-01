@@ -17,7 +17,7 @@ const PromoVid = () => {
 			<din className='container'>
 				<a
 					target='_blank'
-					href='https://youtu.be/7yRK4rkA9Zs'
+					href='https://youtu.be/fHx-4ip4iqU'
 				>
 					<motion.video 
 					ref={ref}
