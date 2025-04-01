@@ -14,8 +14,9 @@ const PromoVid = () => {
 
 	return (
 		<div className='pv-container'>
-			<din className='container'>
+			<div className='container'>
 				<a
+					className='pv-link'
 					target='_blank'
 					href='https://youtu.be/fHx-4ip4iqU'
 				>
@@ -32,7 +33,7 @@ const PromoVid = () => {
 						<source src='/promo.mp4' type='video/mp4'/>
 					</motion.video>
 				</a>
-			</din>
+			</div>
 		</div>
 	);
 }

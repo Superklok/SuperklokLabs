@@ -1,3 +1,10 @@
+.pv-link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: visible;
+}
+
 .pv-container .container {
 	display: flex;
 	align-items: center;
