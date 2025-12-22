@@ -27,12 +27,17 @@ const Connect = () => {
 						initial='offscreen'
 						whileInView={'onscreen'}
 						variants={descVariants}
-						className='c-text'>Our mission is to level the playing field for aspiring coders and musicians. We make sure talented individuals have all the premium self-serve resources they need to make their own music or code an app. All repositories, containers &
+						className='c-text'>Fresh content is constantly being uploaded to all Superklok Labs social media pages. Download the highest quality 
 						<a
 							target='_blank'
 							className='c-link'
 							href='https://superklok.com/'
-						> Superklok Music Tracks </a>are available to everyone free of charge.</motion.span>
+						> Superklok Music Tracks </a>FREE of charge and use them as background music in all your projects. You can even interact with Superklok during 
+						<a
+							target='_blank'
+							className='c-link'
+							href='https://kick.com/superklok'
+						> LIVE stream </a> events. Let's get connected!</motion.span>
 					</div>
 
 					{/* Features */}

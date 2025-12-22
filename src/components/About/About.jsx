@@ -55,6 +55,18 @@ const About = () => {
 												href='https://superklok.com/'
 											>{feature.music}</a>
 												{feature.desc4}
+											<a
+												target='_blank'
+												className='a-link'
+												href='https://superklok.com/'
+											>{feature.music2}</a>
+												{feature.desc5}
+											<a
+												target='_blank'
+												className='a-link'
+												href='https://kick.com/superklok'
+											>{feature.live}</a>
+												{feature.desc6}
 										</span>
 									</motion.div>
 								))

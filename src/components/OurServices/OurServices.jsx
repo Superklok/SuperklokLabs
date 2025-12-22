@@ -26,12 +26,12 @@ const OurServices = () => {
 						variants={titleVariants}
 						className='s-secondary'>
 							{''}
-							Applying innovative conceptualization to web design,
+							Applying innovative conceptualization to <br></br> Cloud Engineering,
 							<a
 								target='_blank'
 								className='s-linkGlow'
 								href='https://superklok.com/'
-							> Music Production </a>& custom luxury PC builds
+							> Music Production </a>& Custom PCs
 						</motion.span>
 						<motion.span 
 						initial='offscreen'
@@ -49,12 +49,12 @@ const OurServices = () => {
 							initial='offscreen'
 							whileInView={'onscreen'}
 							variants={titleVariants}
-							className='s-title'>Web Design</motion.span>
+							className='s-title'>Cloud Engineering</motion.span>
 							<motion.span 
 							initial='offscreen'
 							whileInView={'onscreen'}
 							variants={descVariants}
-							className='s-text s-limit'>Sophisticated apps that stand out.</motion.span>
+							className='s-text s-limit'>Solutions Architecture <br className='s-break'/> you can rely on.</motion.span>
 							<div className='s-services'>
 								{
 									Services.slice(0,3).map((Service, i)=> (
@@ -95,7 +95,7 @@ const OurServices = () => {
 									target='_blank'
 									className='s-linkGlow'
 									href='https://superklok.com/'
-								>Original Music </a>& promotional content.</motion.span>
+								>Original Music </a>with unique <br className='s-break'/> videos & artwork.</motion.span>
 							<div className='s-services'>
 								{
 									Services.slice(3,6).map((Service, i)=> (
@@ -130,7 +130,7 @@ const OurServices = () => {
 
 						{/* Left Side */}
 						<div>
-							<span className='s-title'>Custom Luxury<br className='s-break'/> PC Builds</span>
+							<span className='s-title'>Custom PC Builds</span>
 							<span className='s-text s-left'>We only procure the finest PC parts and each of our unique custom builds are engineered using extremely meticulous care.</span>
 						</div>
 

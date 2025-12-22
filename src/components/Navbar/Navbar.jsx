@@ -39,13 +39,13 @@ export const Navbar = () => {
 								<span>Services</span>
 							</Link>
 							<Link to='dop-wrapper' spy smooth offset={100}>
-								<span>DevOps</span>
+								<span>Specialties</span>
 							</Link>
 							<Link to='a-wrapper' spy smooth>
 								<span>About</span>
 							</Link>
 							<Link to='oc-wrapper' spy smooth offset={100}>
-								<span>Containers</span>
+								<span>Code</span>
 							</Link>
 						</div>
 					</div>
@@ -94,7 +94,7 @@ export const Navbar = () => {
 					spy
 					smooth
 					offset={100}>
-						<span>DevOps</span>
+						<span>Specialties</span>
 					</Link>
 					<Link
 					onClick={() => setMobileMenuOpened(false)}
@@ -109,7 +109,7 @@ export const Navbar = () => {
 					spy
 					smooth
 					offset={100}>
-						<span>Containers</span>
+						<span>Code</span>
 					</Link>
 				</div>
 			</div>

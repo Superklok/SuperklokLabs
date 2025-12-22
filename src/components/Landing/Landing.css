@@ -119,6 +119,9 @@
 	.l-desc {
 		width: 320px;
 	}
+	.l-br {
+		display: none;
+	}
 }
 
 @media (max-width: 768px) {

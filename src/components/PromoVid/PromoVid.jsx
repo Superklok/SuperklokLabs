@@ -18,7 +18,7 @@ const PromoVid = () => {
 				<a
 					className='pv-link'
 					target='_blank'
-					href='https://youtu.be/fHx-4ip4iqU'
+					href='https://youtu.be/zl8n6uWK3uo'
 				>
 					<motion.video 
 					ref={ref}

@@ -19,20 +19,20 @@ export const LandingData = [
 	},
 	{
 		src: 'Landing/Track4.jpg',
-		bg: '#1A1A6B',
-		link: 'https://youtu.be/pY_Mv0IKoN4',
+		bg: '#BB3C28',
+		link: 'https://youtu.be/hJrrhVckr2A',
 		delay: 0.2,
 	},
 	{
 		src: 'Landing/Track5.jpg',
-		bg: '#B13319',
-		link: 'https://youtu.be/_ddWZoMhlO0',
+		bg: '#1A1A6B',
+		link: 'https://youtu.be/pY_Mv0IKoN4',
 		delay: 0.3,
 	},
 	{
 		src: 'Landing/Track6.jpg',
-		bg: '#3F00BF',
-		link: 'https://youtu.be/fHx-4ip4iqU',
+		bg: '#B13319',
+		link: 'https://youtu.be/_ddWZoMhlO0',
 		delay: 0.25,
 	},
 ];
@@ -40,33 +40,33 @@ export const LandingData = [
 export const Services = [
 	{
 		icon: '/Services/Frame-0.png',
-		title: 'React',
-		link: 'https://react.dev/learn',
+		title: 'Amazon Web Services',
+		link: 'https://aws.amazon.com/',
 	},
 	{
 		icon: '/Services/Frame-1.png',
-		title: 'Next.js',
-		link: 'https://nextjs.org/docs',
+		title: 'Microsoft Azure',
+		link: 'https://azure.microsoft.com/',
 	},
 	{
 		icon: '/Services/Frame-2.png',
-		title: 'JavaScript ES6',
-		link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+		title: 'Google Cloud Platform',
+		link: 'https://cloud.google.com/',
 	},
 	{
 		icon: '/Services/Frame-3.png',
 		title: 'After Effects',
-		link: 'https://helpx.adobe.com/ca/after-effects/user-guide.html',
+		link: 'https://www.adobe.com/ca/products/aftereffects.html',
 	},
 	{
 		icon: '/Services/Frame-4.png',
 		title: 'FL Studio',
-		link: 'https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/',
+		link: 'https://www.image-line.com/',
 	},
 	{
 		icon: '/Services/Frame-5.png',
 		title: 'DxO PhotoLab',
-		link: 'https://userguides.dxo.com/photolab/en/overview/',
+		link: 'https://www.dxo.com/dxo-photolab/',
 	},
 ];
 
@@ -87,43 +87,47 @@ export const ConnectFeatures = [
 		icon: '/Connect/Frame-1.png',
 		title: 'YouTube',
 		link: 'https://www.youtube.com/channel/UCNnuDVs9xXqT5PrbL-uP7Vw',
-		desc: 'Check out music videos & virtual reality on our YouTube channel!',
+		desc: 'Check out music videos & LIVE content on our YouTube channel!',
 	},
 ];
 
 export const DevOpsFeatures = [
 	{
-		icon: '/DevOps/Frame-0.png',
-		title: 'Docker',
-		link: 'https://docs.docker.com/',
-		desc: 'Enhancing legacy apps by turning them into images then capturing running instances of them called containers using Docker. This increases scalability and facilitates cross-platform compatibility.',
+		icon: '/DevOps/Frame-3.png',
+		title: 'Solutions Architecture',
+		link: 'https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/',
+		desc: 'Designing and building scalable, secure, and reliable solutions on Microsoft Azure. Translating complex business needs into technical blueprints by selecting the appropriate Azure services and overseeing their implementation.',
 	},
 	{
 		icon: '/DevOps/Frame-1.png',
-		title: 'Kubernetes',
-		link: 'https://kubernetes.io/docs/home/',
-		desc: 'A great way to manage your containers is by orchestrating them in pods using Kubernetes. This allows you to store secrets, obtain SSL certificates, and quickly scale up an app across many nodes.',
+		title: 'Development',
+		link: 'https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/',
+		desc: 'Championing the entire development lifecycle from requirements to deployment, using Microsoft Azure services. Implementing solutions while focusing on areas such as app authentication, monitoring, and performance tuning within Azure.',
 	},
 	{
 		icon: '/DevOps/Frame-2.png',
-		title: 'Amazon Web Services',
-		link: 'https://aws.amazon.com/',
-		desc: 'Deploying the full AWS DevOps arsenal of tools to tackle all your DevOps Engineering needs.',
+		title: 'Administration',
+		link: 'https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/',
+		desc: 'Monitoring the Microsoft Azure cloud environment, handling core services like compute, storage, networking, and security, while also managing identities, governance, backups, and resource optimization to ensure efficient cloud operations.',
 	},
 ];
 
 export const AboutUs = [
 	{
 		title: 'The Company',
-		desc: 'Superklok Labs is an IT consulting firm that specializes in JavaScript, React, Next.js, AWS DevOps Engineering, PC building, French/English Translation, ',
+		desc: 'Superklok Labs is a Winnipeg-based Canadian IT consulting firm specializing in Cloud Engineering, ',
 		music: 'Music Production',
-		desc4: ' & Graphic Design.',
+		desc4: ' and Custom PCs. Superklok (the entity) is a published ',
+		music2: 'Music Artist',
+		desc5: ' and ',
+		live: 'LIVE Streamer',
+		desc6: '.',
 	},
 	{
 		title: 'Our Mission',
-		desc: 'Conceptualizing then creating JavaScript Applications, Custom PCs, ',
+		desc: 'Delivering extremely comprehensive Cloud Engineering services, selling high-end custom PCs, and releasing innovative new ',
 		music: 'Music',
-		desc4: ', Graphics, and Videos that stand out thanks to unique design choices.',
+		desc4: '.',
 	},
 	{
 		title: 'Fully Bilingual',

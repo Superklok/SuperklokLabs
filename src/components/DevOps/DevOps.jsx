@@ -30,7 +30,7 @@ const DevOps = () => {
 						variants={tagVariants}
 						initial='offscreen'
 						whileInView={'onscreen'}
-						className='tag'>DevOps</motion.span>
+						className='tag'>Specialties</motion.span>
 						<motion.span
 						variants={titleVariants}
 						initial='offscreen'

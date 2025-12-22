@@ -14,7 +14,7 @@ const OurContainers = () => {
 						variants={tagVariants}
 						initial='offscreen'
 						whileInView={'onscreen'}
-						className='tag'>Containers</motion.span>
+						className='tag'>Code</motion.span>
 						<motion.span 
 						initial='offscreen'
 						whileInView={'onscreen'}

@@ -93,17 +93,17 @@ const Landing = () => {
 					{/* Right Side */}
 					<div className='l-right'>
 						<div className='l-title'>
-							<span>DevOps Engineering</span>
+							<span>Cloud Engineering</span>
 							<span>& Music Production</span>
 							<span>Going Gangbusters!!</span>
 						</div>
 						<div className='l-desc'>
-							An IT Consulting Firm that specializes in JavaScript, DevOps, French/English Translation &
+							A sophisticated IT Consulting Firm specializing in <br className='l-br'/> Cloud Engineering, 
 							<a
 								target='_blank'
 								className='l-link'
 								href='https://superklok.com/'
-							> Music Production</a>.
+							> Music Production</a> & Custom PCs.
 						</div>
 						<div className='l-promo'>
 							Ace coding interviews with this

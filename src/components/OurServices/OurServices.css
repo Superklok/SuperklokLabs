@@ -172,9 +172,6 @@
 	.s-customPC {
 		margin-top: auto;
 	}
-	.s-break {
-		display: block;
-	}
 	.s-title {
 		line-height: 2.65rem;
 	}
@@ -185,7 +182,7 @@
 		flex-direction: column;
 	}
 	.s-break {
-		display: none;
+		display: block;
 	}
 	.s-left {
 		padding-right: 0rem;
