@@ -94,8 +94,8 @@ const Landing = () => {
 					<div className='l-right'>
 						<div className='l-title'>
 							<span>Cloud Engineering</span>
-							<span>& Music Production</span>
-							<span>Going Gangbusters!!</span>
+							<span>Music Production</span>
+							<span>& Creative Studio</span>
 						</div>
 						<div className='l-desc'>
 							A sophisticated IT Consulting Firm specializing in <br className='l-br'/> Cloud Engineering, 

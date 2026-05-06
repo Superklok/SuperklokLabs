@@ -54,7 +54,7 @@ const OurServices = () => {
 							initial='offscreen'
 							whileInView={'onscreen'}
 							variants={descVariants}
-							className='s-text s-limit'>Solutions Architecture <br className='s-break'/> you can rely on.</motion.span>
+							className='s-text s-limit'>Solutions for <br className='s-break'/> all popular platforms</motion.span>
 							<div className='s-services'>
 								{
 									Services.slice(0,3).map((Service, i)=> (
@@ -85,7 +85,7 @@ const OurServices = () => {
 							initial='offscreen'
 							whileInView={'onscreen'}
 							variants={titleVariants}
-							className='s-title'>Music Production</motion.span>
+							className='s-title'>Creative Studio</motion.span>
 							<motion.span 
 							initial='offscreen'
 							whileInView={'onscreen'}
@@ -95,7 +95,7 @@ const OurServices = () => {
 									target='_blank'
 									className='s-linkGlow'
 									href='https://superklok.com/'
-								>Original Music </a>with unique <br className='s-break'/> videos & artwork.</motion.span>
+								>Music,</a> Videos & Broadcasting <br className='s-break'/> using top-tier tools</motion.span>
 							<div className='s-services'>
 								{
 									Services.slice(3,6).map((Service, i)=> (
@@ -140,7 +140,7 @@ const OurServices = () => {
 								Whether you're looking for a powerful gaming rig or an ultra-silent server, we specialize in conceptualizing and crafting the perfect solution to meet your specific requirements.
 							</span>
 							<span className='s-text'>
-								It starts with sourcing high-end components from across the globe then assembling them using experienced engineering techniques to create bleeding-edge custom PCs which always surpass client expectations.
+								It starts with sourcing high-end components from across the globe then assembling them using experienced engineering techniques to create bleeding-edge custom PCs that stand out from the rest!
 							</span>
 						</div>
 					</motion.div>

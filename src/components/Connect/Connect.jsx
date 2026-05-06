@@ -32,12 +32,12 @@ const Connect = () => {
 							target='_blank'
 							className='c-link'
 							href='https://superklok.com/'
-						> Superklok Music Tracks </a>FREE of charge and use them as background music in all your projects. You can even interact with Superklok during 
+						> Superklok Music Tracks </a>FREE of charge and use them as background music in all your projects. Try our creations, like  
 						<a
 							target='_blank'
 							className='c-link'
-							href='https://kick.com/superklok'
-						> LIVE stream </a> events. Let's get connected!</motion.span>
+							href='https://github.com/Superklok/UltraMPV'
+						> UltraMPV </a> — the best video player in the world. Let's get connected!</motion.span>
 					</div>
 
 					{/* Features */}

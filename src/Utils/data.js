@@ -55,8 +55,8 @@ export const Services = [
 	},
 	{
 		icon: '/Services/Frame-3.png',
-		title: 'After Effects',
-		link: 'https://www.adobe.com/ca/products/aftereffects.html',
+		title: 'OBS Studio',
+		link: 'https://obsproject.com/',
 	},
 	{
 		icon: '/Services/Frame-4.png',
@@ -65,8 +65,8 @@ export const Services = [
 	},
 	{
 		icon: '/Services/Frame-5.png',
-		title: 'DxO PhotoLab',
-		link: 'https://www.dxo.com/dxo-photolab/',
+		title: 'CapCut Pro',
+		link: 'https://www.capcut.com/',
 	},
 ];
 
@@ -87,28 +87,28 @@ export const ConnectFeatures = [
 		icon: '/Connect/Frame-1.png',
 		title: 'YouTube',
 		link: 'https://www.youtube.com/channel/UCNnuDVs9xXqT5PrbL-uP7Vw',
-		desc: 'Check out music videos & LIVE content on our YouTube channel!',
+		desc: 'Subscribe to our channel for music videos & creative studio demos!',
 	},
 ];
 
 export const DevOpsFeatures = [
 	{
-		icon: '/DevOps/Frame-3.png',
-		title: 'Solutions Architecture',
-		link: 'https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/',
-		desc: 'Designing and building scalable, secure, and reliable solutions on Microsoft Azure. Translating complex business needs into technical blueprints by selecting the appropriate Azure services and overseeing their implementation.',
+		icon: '/DevOps/Frame-2.png',
+		title: 'Azure Solutions',
+		link: 'https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/',
+		desc: 'Monitoring the Microsoft Azure cloud environment, we handle core services like compute, storage, networking, and security, while also managing identities, governance, backups, and resource optimization to ensure efficient cloud operations.',
 	},
 	{
 		icon: '/DevOps/Frame-1.png',
-		title: 'Development',
-		link: 'https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/',
-		desc: 'Championing the entire development lifecycle from requirements to deployment, using Microsoft Azure services. Implementing solutions while focusing on areas such as app authentication, monitoring, and performance tuning within Azure.',
+		title: 'Creative Studio',
+		link: 'https://www.youtube.com/channel/UCNnuDVs9xXqT5PrbL-uP7Vw',
+		desc: 'Specializing in music production and high-fidelity bilingual French/English live broadcasting, we seamlessly blend professional-grade audio engineering, dynamic visual design, and multi-lingual support to elevate your digital presence.',
 	},
 	{
-		icon: '/DevOps/Frame-2.png',
-		title: 'Administration',
-		link: 'https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/',
-		desc: 'Monitoring the Microsoft Azure cloud environment, handling core services like compute, storage, networking, and security, while also managing identities, governance, backups, and resource optimization to ensure efficient cloud operations.',
+		icon: '/DevOps/Frame-3.png',
+		title: 'Custom Computers',
+		link: 'https://www.linkedin.com/company/superkloklabs',
+		desc: 'Designing, building, and modifying high-performance custom PCs tailored to handle your every need! We also provide expert diagnostics, high-quality repairs, and state-of-the-art upgrades to optimize and extend the life of your technology.',
 	},
 ];
 
@@ -119,9 +119,7 @@ export const AboutUs = [
 		music: 'Music Production',
 		desc4: ' and Custom PCs. Superklok (the entity) is a published ',
 		music2: 'Music Artist',
-		desc5: ' and ',
-		live: 'LIVE Streamer',
-		desc6: '.',
+		desc5: '.',
 	},
 	{
 		title: 'Our Mission',
@@ -144,6 +142,15 @@ export const AboutUs = [
 ];
 
 export const ContainerData = [
+	{
+		icon: '/Containers/Frame-16.png',
+		title: '[EN] UltraMPV',
+		desc: 'The BEST realistic 4K video playback experience in the world! (Optimized for Nvidia)',
+		docker: 'https://hub.docker.com/r/superklok/ultrampv',
+		dockerImg: '/DevOps/Frame-0.png',
+		github: 'https://github.com/Superklok/UltraMPV',
+		githubImg: '/Connect/Frame-0.png',
+	},
 	{
 		icon: '/Containers/Frame-15.png',
 		title: '[EN] This Website',
