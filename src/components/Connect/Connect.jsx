@@ -31,8 +31,8 @@ const Connect = () => {
 						<a
 							target='_blank'
 							className='c-link'
-							href='https://superklok.com/'
-						> Superklok Music Tracks </a>FREE of charge and use them as background music in all your projects. Try our creations, like  
+							href='https://superklok.bandcamp.com'
+						> Superklok Music Tracks FREE </a>of charge and use them as background music in all your projects. Try our creations, like  
 						<a
 							target='_blank'
 							className='c-link'

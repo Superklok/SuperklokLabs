@@ -69,6 +69,10 @@
 	margin-left: 3rem;
 }
 
+.dop-mobile {
+	display: none;
+}
+
 @media (max-width: 1280px) {
 	.dop-feature {
 		max-width: 80%;
@@ -86,6 +90,9 @@
 	.dop-feature .icon img {
 		translate: 0;
 	}
+	.dop-full {
+		display: block;
+	}
 }
 
 @media (max-width: 576px) {
@@ -99,5 +106,11 @@
 	.dop-feature .icon img {
 		margin-top: 3rem;
 		margin-bottom: 3rem;
+	}
+	.dop-full {
+		display: none;
+	}
+	.dop-mobile {
+		display: block;
 	}
 }

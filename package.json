@@ -1,7 +1,7 @@
 {
   "name": "superkloklabs",
-  "version": "1.12.153",
-  "description": "SuperklokLabs.com",
+  "version": "1.12.168",
+  "description": "Superklok.com",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -13,12 +13,12 @@
     "type": "git",
     "url": "https://github.com/Superklok/SuperklokLabs.git"
   },
-  "author": "Trevor Morin <trev@superklok.com> (https://superkloklabs.com)",
+  "author": "Trevor Morin <trev@superklok.com> (https://superklok.com)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Superklok/SuperklokLabs/issues"
   },
-  "homepage": "http://superkloklabs.com",
+  "homepage": "http://superklok.com",
   "dependencies": {
     "eslint": "8.56.0",
     "eslint-config-next": "14.1.0",

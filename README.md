@@ -1,4 +1,4 @@
-# [SuperklokLabs.com][SuperklokLabs] v1.12.153
+# [SuperklokLabs.com][SuperklokLabs] v1.12.168
 <br />
 
 ## Basic Root User Deployment Guide For App Evaluation
@@ -286,7 +286,7 @@ exit
 <br />
 <br />
 
-[SuperklokLabs]: https://superkloklabs.com/
+[SuperklokLabs]: https://superklok.com/
 [javascript]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
 [css]: https://developer.mozilla.org/en-US/docs/Web/CSS
 [html]: https://developer.mozilla.org/en-US/docs/Web/HTML

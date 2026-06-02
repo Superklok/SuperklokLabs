@@ -52,13 +52,13 @@ const About = () => {
 											<a
 												target='_blank'
 												className='a-link'
-												href='https://superklok.com/'
+												href='https://www.pond5.com/artist/superklok'
 											>{feature.music}</a>
 												{feature.desc4}
 											<a
 												target='_blank'
 												className='a-link'
-												href='https://superklok.com/'
+												href='https://www.pond5.com/artist/superklok'
 											>{feature.music2}</a>
 												{feature.desc5}
 										</span>

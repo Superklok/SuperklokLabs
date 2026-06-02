@@ -102,7 +102,7 @@ const Landing = () => {
 							<a
 								target='_blank'
 								className='l-link'
-								href='https://superklok.com/'
+								href='https://www.pond5.com/artist/superklok'
 							> Music Production</a> & Custom PCs.
 						</div>
 						<div className='l-promo'>

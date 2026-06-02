@@ -30,7 +30,7 @@ const OurServices = () => {
 							<a
 								target='_blank'
 								className='s-linkGlow'
-								href='https://superklok.com/'
+								href='https://www.pond5.com/artist/superklok'
 							> Music Production </a>& Custom PCs
 						</motion.span>
 						<motion.span 
@@ -94,7 +94,7 @@ const OurServices = () => {
 								<a
 									target='_blank'
 									className='s-linkGlow'
-									href='https://superklok.com/'
+									href='https://www.pond5.com/artist/superklok'
 								>Music,</a> Videos & Broadcasting <br className='s-break'/> using top-tier tools</motion.span>
 							<div className='s-services'>
 								{

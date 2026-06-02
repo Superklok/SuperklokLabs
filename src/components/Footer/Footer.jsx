@@ -13,7 +13,7 @@ const Footer = () => {
 						<PromoButton/>
 					</div>
 					<div className='f-icon'>
-						<a target='_blank' href='https://superklok.com/'>
+						<a target='_blank' href='https://www.pond5.com/artist/superklok'>
 							<Image 
 							src='/superklok.png'
 							width={315} 

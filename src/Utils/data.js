@@ -102,7 +102,7 @@ export const DevOpsFeatures = [
 		icon: '/DevOps/Frame-1.png',
 		title: 'Creative Studio',
 		link: 'https://www.youtube.com/channel/UCNnuDVs9xXqT5PrbL-uP7Vw',
-		desc: 'Specializing in music production and high-fidelity bilingual French/English live broadcasting, we seamlessly blend professional-grade audio engineering, dynamic visual design, and multi-lingual support to elevate your digital presence.',
+		desc: 'Specializing in music production and high-fidelity bilingual French/English live broadcasting, we seamlessly blend professional-grade audio engineering, dynamic visual design, and multi-platform streaming to elevate your digital presence.',
 	},
 	{
 		icon: '/DevOps/Frame-3.png',

@@ -35,7 +35,10 @@ const DevOps = () => {
 						variants={titleVariants}
 						initial='offscreen'
 						whileInView={'onscreen'}
-						className='title'>Azure Solutions | Creative Studio | Custom PCs</motion.span>
+						className='title'>
+							<span className='dop-full'>Azure Solutions | Creative Studio | Custom PCs</span>
+							<span className='dop-mobile'>Azure Solutions | Creative Studio<br/>Custom PCs</span>
+						</motion.span>
 					</div>
 
 					<div className='dop-features'>
