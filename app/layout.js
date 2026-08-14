@@ -9,7 +9,7 @@ const Mouse = Mouse_Memoirs({
 
 export const metadata = {
 	title: 'Superklok Labs',
-	description: 'Superklok Labs is a Winnipeg-based Canadian IT consulting firm specializing in Cloud Engineering, Music Production and Custom PCs.',
+	description: 'Superklok Labs is a Winnipeg-based Canadian IT consulting firm specializing in Expert Cloud Engineering, Professional Music Production & Creative Studio Services.',
 }
 
 export const viewport = {

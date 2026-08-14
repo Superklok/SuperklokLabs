@@ -40,33 +40,33 @@ export const LandingData = [
 export const Services = [
 	{
 		icon: '/Services/Frame-0.png',
-		title: 'Amazon Web Services',
-		link: 'https://aws.amazon.com/',
+		title: 'Hire on Contra',
+		link: 'https://contra.com/Superklok',
 	},
 	{
-		icon: '/Services/Frame-1.png',
-		title: 'Microsoft Azure',
-		link: 'https://azure.microsoft.com/',
+		icon: '/Services/Frame-1.webp',
+		title: 'Hire on Upwork',
+		link: 'https://www.upwork.com/freelancers/~01a2b86360ffeb733e',
 	},
 	{
 		icon: '/Services/Frame-2.png',
-		title: 'Google Cloud Platform',
-		link: 'https://cloud.google.com/',
+		title: 'Gumroad Digital Goods',
+		link: 'https://superklok.gumroad.com/',
 	},
 	{
 		icon: '/Services/Frame-3.png',
-		title: 'OBS Studio',
-		link: 'https://obsproject.com/',
+		title: 'Commercial Licensing',
+		link: 'https://www.pond5.com/artist/superklok',
 	},
 	{
 		icon: '/Services/Frame-4.png',
-		title: 'FL Studio',
-		link: 'https://www.image-line.com/',
+		title: 'Track Stem Contracts',
+		link: 'https://www.beatstars.com/superklok',
 	},
 	{
 		icon: '/Services/Frame-5.png',
-		title: 'CapCut Pro',
-		link: 'https://www.capcut.com/',
+		title: 'Non-Commercial Licensing',
+		link: 'https://superklok.bandcamp.com/',
 	},
 ];
 
@@ -81,7 +81,7 @@ export const ConnectFeatures = [
 		icon: '/Connect/Frame-0.png',
 		title: 'GitHub',
 		link: 'https://github.com/Superklok',
-		desc: 'All Superklok Labs repositories are publicly available on our GitHub!',
+		desc: 'Check out public repositories & FREE LoRAs on our GitHub!',
 	},
 	{
 		icon: '/Connect/Frame-1.png',
@@ -95,20 +95,20 @@ export const DevOpsFeatures = [
 	{
 		icon: '/DevOps/Frame-2.png',
 		title: 'Azure Solutions',
-		link: 'https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/',
-		desc: 'Monitoring the Microsoft Azure cloud environment, we handle core services like compute, storage, networking, and security, while also managing identities, governance, backups, and resource optimization to ensure efficient cloud operations.',
+		link: 'https://learn.microsoft.com/en-ca/users/superklok/credentials/685a4b6db3652865',
+		desc: 'AZ-104 Microsoft Certified: Azure Administrator, monitoring the Azure cloud environment, handling core services like compute, storage, networking, and security, while also managing identities, governance, backups, and resource optimization to ensure efficient cloud operations.',
 	},
 	{
 		icon: '/DevOps/Frame-1.png',
-		title: 'Creative Studio',
-		link: 'https://www.youtube.com/channel/UCNnuDVs9xXqT5PrbL-uP7Vw',
-		desc: 'Specializing in music production and high-fidelity bilingual French/English live broadcasting, we seamlessly blend professional-grade audio engineering, dynamic visual design, and multi-platform streaming to elevate your digital presence.',
+		title: 'Premium Background Music',
+		link: 'https://www.pond5.com/artist/superklok',
+		desc: 'Specializing in premium French Drill background music production and high-fidelity bilingual French/English asset licensing, we seamlessly blend professional-grade audio engineering, original music videos, graphic design, and pristine sonic design to elevate your digital presence.',
 	},
 	{
 		icon: '/DevOps/Frame-3.png',
-		title: 'Custom Computers',
-		link: 'https://www.linkedin.com/company/superkloklabs',
-		desc: 'Designing, building, and modifying high-performance custom PCs tailored to handle your every need! We also provide expert diagnostics, high-quality repairs, and state-of-the-art upgrades to optimize and extend the life of your technology.',
+		title: 'Automation Engineering',
+		link: 'https://contra.com/Superklok',
+		desc: 'Architecting, training, and optimizing high-performance ComfyUI workflows tailored to handle your every creative need! We also provide expert troubleshooting, high-quality nodes curation, and state-of-the-art model upgrades to optimize and accelerate the output of your generative technology.',
 	},
 ];
 
@@ -117,15 +117,15 @@ export const AboutUs = [
 		title: 'The Company',
 		desc: 'Superklok Labs is a Winnipeg-based Canadian IT consulting firm specializing in Cloud Engineering, ',
 		music: 'Music Production',
-		desc4: ' and Custom PCs. Superklok (the entity) is a published ',
+		desc4: ' and Creative Studio Services. Superklok (the entity) is a published ',
 		music2: 'Music Artist',
 		desc5: '.',
 	},
 	{
 		title: 'Our Mission',
-		desc: 'Delivering extremely comprehensive Cloud Engineering services, selling high-end custom PCs, and releasing innovative new ',
-		music: 'Music',
-		desc4: '.',
+		desc: 'Delivering extremely comprehensive Microsoft Azure Solutions, innovative ',
+		music: 'Premium Background Music,',
+		desc4: ' and 100% Commercially Usable Automation Engineering.',
 	},
 	{
 		title: 'Fully Bilingual',

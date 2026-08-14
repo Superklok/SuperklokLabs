@@ -31,7 +31,7 @@ const OurServices = () => {
 								target='_blank'
 								className='s-linkGlow'
 								href='https://www.pond5.com/artist/superklok'
-							> Music Production </a>& Custom PCs
+							> Music Production </a>& Creative Services
 						</motion.span>
 						<motion.span 
 						initial='offscreen'
@@ -54,7 +54,7 @@ const OurServices = () => {
 							initial='offscreen'
 							whileInView={'onscreen'}
 							variants={descVariants}
-							className='s-text s-limit'>Solutions for <br className='s-break'/> all popular platforms</motion.span>
+							className='s-text s-limit'>Digital Products & <br className='s-break'/> IT Consultation</motion.span>
 							<div className='s-services'>
 								{
 									Services.slice(0,3).map((Service, i)=> (
@@ -85,7 +85,7 @@ const OurServices = () => {
 							initial='offscreen'
 							whileInView={'onscreen'}
 							variants={titleVariants}
-							className='s-title'>Creative Studio</motion.span>
+							className='s-title'>Music Production</motion.span>
 							<motion.span 
 							initial='offscreen'
 							whileInView={'onscreen'}
@@ -95,7 +95,7 @@ const OurServices = () => {
 									target='_blank'
 									className='s-linkGlow'
 									href='https://www.pond5.com/artist/superklok'
-								>Music,</a> Videos & Broadcasting <br className='s-break'/> using top-tier tools</motion.span>
+								>Music,</a> Videos & <br className='s-break'/> Graphic Design</motion.span>
 							<div className='s-services'>
 								{
 									Services.slice(3,6).map((Service, i)=> (
@@ -130,17 +130,17 @@ const OurServices = () => {
 
 						{/* Left Side */}
 						<div>
-							<span className='s-title'>Custom PC Builds</span>
-							<span className='s-text s-left'>We only procure the finest PC parts and each of our unique custom builds are engineered using extremely meticulous care.</span>
+							<span className='s-title'>Creative Studio Services</span>
+							<span className='s-text s-left'>We create the finest 100% Commercially Usable bespoke AI Automation Solutions, engineered using extremely meticulous research and care.</span>
 						</div>
 
 						{/* Right Side */}
 						<div>
 							<span className='s-text'>
-								Whether you're looking for a powerful gaming rig or an ultra-silent server, we specialize in conceptualizing and crafting the perfect solution to meet your specific requirements.
+								Whether you'd like to convert simple MS Paint sketches into breathtaking masterpieces with ComfyUIcharacter, or generate eye-catching ad campaigns using ComfyUImarketing, we'll craft the perfect solution for you.
 							</span>
 							<span className='s-text'>
-								It starts with sourcing high-end components from across the globe then assembling them using experienced engineering techniques to create bleeding-edge custom PCs that stand out from the rest!
+								It starts with sourcing pristine, 100% Commercially Safe training assets then assembling them using experienced ComfyUI techniques to create bleeding-edge generative workflows that stand out from the rest!
 							</span>
 						</div>
 					</motion.div>

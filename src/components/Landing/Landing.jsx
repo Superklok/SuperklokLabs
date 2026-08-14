@@ -98,12 +98,12 @@ const Landing = () => {
 							<span>& Creative Studio</span>
 						</div>
 						<div className='l-desc'>
-							A sophisticated IT Consulting Firm specializing in <br className='l-br'/> Cloud Engineering, 
+							Superklok Labs delivers Expert Cloud Engineering, <br className='l-br'/>
 							<a
 								target='_blank'
 								className='l-link'
 								href='https://www.pond5.com/artist/superklok'
-							> Music Production</a> & Custom PCs.
+							> Professional Music Production</a> & Creative Studio Services.
 						</div>
 						<div className='l-promo'>
 							Ace coding interviews with this
