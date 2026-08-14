@@ -37,7 +37,7 @@ const DevOps = () => {
 						whileInView={'onscreen'}
 						className='title'>
 							<span className='dop-full'>Azure Solutions | Premium Music | Automation</span>
-							<span className='dop-mobile'>Azure Solutions | Creative Studio<br/>Custom PCs</span>
+							<span className='dop-mobile'>Azure Solutions | Premium Music<br/>Automation</span>
 						</motion.span>
 					</div>
 
